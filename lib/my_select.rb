@@ -12,6 +12,6 @@ def my_select(collection)
   empty_array << yield(collection[i])
   i+=1
   end
-  empty_array
+  return empty_array
 end
 
